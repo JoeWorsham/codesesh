@@ -3,3 +3,6 @@
 ################################################################################
 
 /CodeSESH/.vs/CodeSESH/v16
+/CodeSESH/CodeSESH/bin/Debug/netcoreapp3.1
+/CodeSESH/CodeSESH/obj
+/CodeSESH/.vs/CodeSESH/DesignTimeBuild
