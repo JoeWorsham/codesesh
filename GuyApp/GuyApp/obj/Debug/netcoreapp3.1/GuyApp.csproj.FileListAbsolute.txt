@@ -1,0 +1,4 @@
+C:\Projects\codesesh\GuyApp\GuyApp\obj\Debug\netcoreapp3.1\GuyApp.csproj.AssemblyReference.cache
+C:\Projects\codesesh\GuyApp\GuyApp\obj\Debug\netcoreapp3.1\GuyApp.AssemblyInfoInputs.cache
+C:\Projects\codesesh\GuyApp\GuyApp\obj\Debug\netcoreapp3.1\GuyApp.AssemblyInfo.cs
+C:\Projects\codesesh\GuyApp\GuyApp\obj\Debug\netcoreapp3.1\GuyApp.csproj.CoreCompileInputs.cache
