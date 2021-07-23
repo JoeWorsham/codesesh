@@ -4,18 +4,16 @@ using System.Text;
 
 namespace CodeSESH.OOPS.Classes
 {
-
-  public class Dog: AnimalBase
+  public interface IAnimal
   {
-
+    string Name { get; set; }
+    bool Walk();
+    bool Eat();
+    void Speak(string whatToSay);
+    void PrintNumberOfMeals();
   }
 
-  public class Cat: AnimalBase
-  {
-
-  }
-
-  public class AnimalBase
+  public class Animal : IAnimal
   {
     #region Properties
 
@@ -23,7 +21,6 @@ namespace CodeSESH.OOPS.Classes
     public string Name { get; set; }
 
     #endregion
-
 
     #region Functions
     public bool Walk()
@@ -41,7 +38,7 @@ namespace CodeSESH.OOPS.Classes
       var result = false;
 
       Console.WriteLine("Animal ate.");
-      
+
       // short hand incrementing
       NumberOfMealsEaten++;
 
@@ -51,9 +48,15 @@ namespace CodeSESH.OOPS.Classes
 
       return result;
     }
+
     #endregion
 
     #region Methods
+
+    public void Speak(string whatToSay)
+    {
+      Console.WriteLine($"This animal says {whatToSay}");
+    }
 
     public void PrintNumberOfMeals()
     {
